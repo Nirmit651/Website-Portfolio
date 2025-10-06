@@ -1,0 +1,20 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <radialGradient id="sun" cx="30%" cy="25%" r="20%">
+      <stop offset="0%" stop-color="#facc15" stop-opacity="1" />
+      <stop offset="100%" stop-color="#facc15" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="url(#sky)" />
+  <rect width="1200" height="630" rx="48" fill="url(#sun)" />
+  <g fill="#f8fafc" opacity="0.9">
+    <ellipse cx="740" cy="320" rx="180" ry="72" />
+    <ellipse cx="600" cy="340" rx="210" ry="80" />
+    <ellipse cx="870" cy="340" rx="170" ry="68" />
+  </g>
+  <text x="200" y="500" font-family="'Space Grotesk', sans-serif" font-size="110" fill="#e0f2fe" opacity="0.92">Weather Dash</text>
+</svg>

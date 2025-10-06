@@ -1,0 +1,16 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f9fafb" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="#1e293b" />
+  <rect x="140" y="80" width="920" height="470" rx="36" fill="url(#paper)" />
+  <g fill="none" stroke="#94a3b8" stroke-width="6" opacity="0.5">
+    <line x1="220" y1="180" x2="980" y2="180" />
+    <line x1="220" y1="260" x2="980" y2="260" />
+    <line x1="220" y1="340" x2="980" y2="340" />
+  </g>
+  <text x="200" y="520" font-family="'Space Grotesk', sans-serif" font-size="104" fill="#0f172a">CV Builder</text>
+</svg>
