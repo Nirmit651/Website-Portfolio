@@ -60,8 +60,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className="bg-slate-950">
-      <body className={cn(inter.variable, heading.variable, "bg-slate-950")}> 
+    <html lang="en" suppressHydrationWarning>
+      <body className={cn("min-h-screen bg-white text-slate-900 antialiased transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100", inter.variable, heading.variable)}> 
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
           <Analytics />

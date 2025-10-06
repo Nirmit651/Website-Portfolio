@@ -26,21 +26,21 @@ export function HeroSection() {
         <motion.span
           {...fadeUp}
           transition={{ ...fadeUp.transition, delay: 0.1 }}
-          className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.3em] text-slate-200/80 backdrop-blur"
+          className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/80 px-3 py-1 text-xs font-medium uppercase tracking-[0.3em] text-slate-600 shadow-sm backdrop-blur dark:border-white/10 dark:bg-white/5 dark:text-slate-200/80"
         >
-          Available for Summer 2025 internships
+          Available for Summer 2026 internships
         </motion.span>
 
         <motion.h1
           {...fadeUp}
           transition={{ ...fadeUp.transition, delay: 0.2 }}
           className={cn(
-            "mt-8 text-balance font-display text-4xl leading-tight text-white sm:text-5xl md:text-6xl",
+            "mt-8 text-balance font-display text-4xl leading-tight text-slate-900 sm:text-5xl md:text-6xl dark:text-white",
             "[text-wrap:balance]"
           )}
         >
           Nirmit Bhoyar
-          <span className="block text-lg font-normal tracking-tight text-slate-200/80 sm:text-xl">
+          <span className="block text-lg font-normal tracking-tight text-slate-600 sm:text-xl dark:text-slate-200/80">
             Computer Science &amp; Data Science @ Rutgers University
           </span>
         </motion.h1>
@@ -48,7 +48,7 @@ export function HeroSection() {
         <motion.p
           {...fadeUp}
           transition={{ ...fadeUp.transition, delay: 0.35 }}
-          className="mt-8 max-w-2xl text-lg text-slate-200/80 sm:text-xl"
+          className="mt-8 max-w-2xl text-lg text-slate-600 sm:text-xl dark:text-slate-200/80"
         >
           I build high-velocity web experiences that feel effortless, blending strong product taste with data-driven insight. I love shipping interfaces that move fast, feel alive, and solve real problems.
         </motion.p>
@@ -60,7 +60,7 @@ export function HeroSection() {
         >
           <Link
             href="/#projects"
-            className="group inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition-transform hover:-translate-y-0.5"
+            className="group inline-flex items-center gap-2 rounded-full bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5 dark:bg-white dark:text-slate-900"
           >
             View Projects
             <ArrowDownRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -68,7 +68,7 @@ export function HeroSection() {
 
           <Link
             href="mailto:nirmit.bhoyar@gmail.com"
-            className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-3 text-sm font-semibold text-white transition hover:border-white/50 hover:bg-white/10"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-400 hover:bg-slate-100 dark:border-white/20 dark:text-white dark:hover:border-white/50 dark:hover:bg-white/10"
           >
             <Mail className="h-4 w-4" />
             Email

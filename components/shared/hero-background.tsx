@@ -67,7 +67,7 @@ export function HeroBackground({
 
     const render = () => {
       ctx.clearRect(0, 0, width, height);
-      ctx.fillStyle = `rgba(15, 23, 42, 0.45)`;
+      ctx.fillStyle = "rgba(120, 144, 180, 0.25)";
       ctx.fillRect(0, 0, width, height);
 
       for (const star of stars) {
@@ -111,13 +111,13 @@ export function HeroBackground({
     >
       {shouldReduceMotion ? (
         <div
-          className="absolute inset-0 bg-gradient-to-br from-sky-500/20 via-indigo-500/10 to-transparent"
+          className="absolute inset-0 bg-gradient-to-br from-sky-300/30 via-violet-200/20 to-transparent dark:from-sky-500/20 dark:via-indigo-500/10"
           style={{ backgroundBlendMode: "screen" }}
         />
       ) : (
         <canvas ref={canvasRef} className="h-full w-full" />
       )}
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950/60 to-slate-950" />
+      <div className="absolute inset-0 bg-gradient-to-b from-white via-white/70 to-white dark:from-slate-950 dark:via-slate-950/60 dark:to-slate-950" />
     </div>
   );
 }

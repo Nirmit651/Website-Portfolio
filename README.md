@@ -2,7 +2,7 @@
 
 A modern, motion-rich personal site built with Next.js 14 (App Router), TypeScript, Tailwind CSS, Framer Motion, and a custom Hyperspeed-inspired hero background. Sections flow from hero → projects → about → contact with buttery transitions, responsive typography, and a dark-first visual system.
 
-https://nirmit.dev *(update once deployed)*
+https://website-portfolio-nu-three.vercel.app/
 
 ## Features
 

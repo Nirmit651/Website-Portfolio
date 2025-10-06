@@ -13,11 +13,11 @@ const listMotion = {
   }),
 };
 
-const skills = ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Node.js", "Python"];
+const skills = ["JavaScript", "React", "Node.js", "Python", "SQL"];
 
 export function AboutSection() {
   return (
-    <section id="about" className="relative border-t border-white/5 bg-slate-950 py-24">
+    <section id="about" className="relative border-t border-slate-200 bg-white py-24 dark:border-white/5 dark:bg-slate-950">
       <div className="mx-auto flex max-w-5xl flex-col gap-16 px-6 md:flex-row md:items-start">
         <motion.div
           initial={{ opacity: 0, x: -24 }}
@@ -26,23 +26,23 @@ export function AboutSection() {
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-xl"
         >
-          <h2 className="font-display text-3xl text-white sm:text-4xl">About</h2>
-          <p className="mt-4 text-lg leading-relaxed text-slate-300">
-            I&apos;m a Rutgers CS &amp; Data Science student who splits time between building interactive interfaces, studying markets, and staying active. When I&apos;m not shipping code, youll usually find me in the gym, trading strategy notes, or chasing the next pickleball rematch.
+          <h2 className="font-display text-3xl text-slate-900 sm:text-4xl dark:text-white">About</h2>
+          <p className="mt-4 text-lg leading-relaxed text-slate-600 dark:text-slate-300">
+            I&apos;m a Rutgers Computer Science &amp; Data Science student who splits time between building interactive interfaces, studying markets, and staying active. When I&apos;m not shipping code, you&apos;ll usually find me in the gym, trying out a new restaurant, or chasing the next pickleball rematch.
           </p>
-          <div className="mt-8 flex flex-wrap gap-4 text-sm font-medium text-slate-200/80">
+          <div className="mt-8 flex flex-wrap gap-4 text-sm font-medium text-slate-600 dark:text-slate-200/80">
             <Link
               href="https://github.com/Nirmit651"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 transition hover:border-white/30 hover:bg-white/10"
+              className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-4 py-2 text-slate-700 transition hover:border-slate-400 hover:bg-slate-100 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:hover:border-white/30 dark:hover:bg-white/10"
             >
               <Github className="h-4 w-4" />
               GitHub
             </Link>
             <Link
               href="mailto:nirmit.bhoyar@gmail.com"
-              className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 transition hover:border-white/30 hover:bg-white/10"
+              className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-4 py-2 text-slate-700 transition hover:border-slate-400 hover:bg-slate-100 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:hover:border-white/30 dark:hover:bg-white/10"
             >
               <Mail className="h-4 w-4" />
               Email
@@ -56,14 +56,14 @@ export function AboutSection() {
           viewport={{ once: true }}
           className="flex-1"
         >
-          <h3 className="text-sm uppercase tracking-[0.3em] text-slate-400">Skillset</h3>
+          <h3 className="text-sm uppercase tracking-[0.3em] text-slate-400 dark:text-slate-400/90">Skillset</h3>
           <div className="mt-6 flex flex-wrap gap-3">
             {skills.map((skill, index) => (
               <motion.span
                 key={skill}
                 custom={index}
                 variants={listMotion}
-                className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white"
+                className="inline-flex items-center rounded-full border border-slate-300 bg-white px-4 py-2 text-sm text-slate-700 dark:border-white/10 dark:bg-white/5 dark:text-white"
               >
                 {skill}
               </motion.span>
