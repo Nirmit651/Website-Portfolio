@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Nirmit Bhoyar portfolio social image</title>
+  <desc id="desc">Nirmit Bhoyar, Software Engineering, AI/ML, and Data Products.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset=".48" stop-color="#172554"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".72" cy=".3" r=".42">
+      <stop offset="0" stop-color="#3a6fff" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#3a6fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <path d="M0 470c168-82 323-96 498-31 211 78 390 83 702-86v277H0Z" fill="#ffffff" opacity=".06"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="86" y="246" fill="#ffffff" font-size="78" font-weight="850">Nirmit Bhoyar</text>
+    <text x="92" y="318" fill="#dbeafe" font-size="36" font-weight="750">Software Engineering • AI/ML • Data Products</text>
+    <text x="92" y="386" fill="#94a3b8" font-size="28" font-weight="600">Full-stack applications, geospatial analytics, computer vision, and scientific tools.</text>
+  </g>
+  <g transform="translate(860 145)" opacity=".92">
+    <rect width="224" height="224" rx="40" fill="#f8fafc"/>
+    <path d="M52 150c54-72 89-103 146-93 8 56-17 98-89 126-21-3-40-14-57-33Z" fill="#3a6fff"/>
+    <circle cx="75" cy="72" r="17" fill="#38bdf8"/>
+    <circle cx="151" cy="130" r="17" fill="#facc15"/>
+    <path d="M75 72 151 130" stroke="#0f172a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

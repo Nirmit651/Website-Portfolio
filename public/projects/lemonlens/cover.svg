@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">LemonLens food-access analytics cover</title>
+  <desc id="desc">Map-based dashboard illustration with pantry clusters, demand rankings, and supply analytics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172033"/>
+      <stop offset=".5" stop-color="#123329"/>
+      <stop offset="1" stop-color="#06111f"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fcfff4" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#dff7d3" stop-opacity=".9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#020617" flood-opacity=".36"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 686c194-82 349-93 548-48 262 59 413 88 642-9 145-61 279-78 410-31v302H0Z" fill="#e8f7b3" opacity=".11"/>
+  <g filter="url(#shadow)">
+    <rect x="126" y="88" width="1348" height="724" rx="40" fill="url(#panel)"/>
+    <rect x="162" y="130" width="860" height="640" rx="30" fill="#eef7e7"/>
+    <path d="M244 625c127-92 179-91 306-22 121 66 204 70 326-37 48-42 89-57 146-60v264H162V625Z" fill="#b8dbab" opacity=".55"/>
+    <path d="M183 341c101-42 176-38 264 23 123 86 202 68 312-40 72-71 165-98 263-60v246c-70-8-124 7-184 52-97 73-184 74-286 7-141-93-221-101-369-24Z" fill="#d7ebc9"/>
+    <path d="M216 206c144 77 221 96 359 6 97-63 185-73 314-7 51 27 88 40 133 44v170c-99-22-177 3-252 72-95 88-180 92-295 19-107-68-175-78-292-29V206Z" fill="#c4e0bc"/>
+    <g fill="none" stroke="#f8fff1" stroke-width="8" stroke-linecap="round" opacity=".78">
+      <path d="M207 704c138-121 246-147 438-101 122 29 248 7 379-69"/>
+      <path d="M208 423c120-45 207-33 324 40 106 66 180 45 266-38 74-71 135-92 220-74"/>
+      <path d="M315 164c73 49 144 68 233 53 93-16 143-75 258-54"/>
+      <path d="M166 277c143-5 214-59 332-105"/>
+      <path d="M712 763c30-106 27-201-21-287-49-87-48-162 20-259"/>
+      <path d="M504 768c67-98 68-177 5-271-51-75-49-166 25-275"/>
+      <path d="M865 141c-82 83-103 175-61 278 41 102 33 200-32 292"/>
+    </g>
+    <g>
+      <circle cx="405" cy="315" r="18" fill="#facc15" stroke="#133326" stroke-width="8"/>
+      <circle cx="646" cy="413" r="15" fill="#fb923c" stroke="#133326" stroke-width="8"/>
+      <circle cx="838" cy="286" r="19" fill="#22c55e" stroke="#133326" stroke-width="8"/>
+      <circle cx="344" cy="579" r="14" fill="#facc15" stroke="#133326" stroke-width="8"/>
+      <circle cx="780" cy="641" r="17" fill="#ef4444" stroke="#133326" stroke-width="8"/>
+      <circle cx="540" cy="226" r="12" fill="#22c55e" stroke="#133326" stroke-width="7"/>
+    </g>
+    <rect x="1056" y="130" width="382" height="176" rx="28" fill="#10251e"/>
+    <text x="1090" y="184" fill="#d9f99d" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Need score</text>
+    <text x="1090" y="244" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="800">87</text>
+    <path d="M1210 250c42-68 82-34 117-95 15 47 43 71 82 81" fill="none" stroke="#facc15" stroke-width="12" stroke-linecap="round"/>
+    <rect x="1056" y="334" width="382" height="202" rx="28" fill="#ffffff"/>
+    <text x="1090" y="388" fill="#10251e" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">Priority locations</text>
+    <g font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">
+      <rect x="1092" y="423" width="276" height="14" rx="7" fill="#d1e8c8"/><rect x="1092" y="423" width="224" height="14" rx="7" fill="#ef4444"/>
+      <text x="1092" y="470" fill="#334155">Brooklyn pantry</text>
+      <rect x="1092" y="490" width="276" height="14" rx="7" fill="#d1e8c8"/><rect x="1092" y="490" width="188" height="14" rx="7" fill="#f97316"/>
+    </g>
+    <rect x="1056" y="564" width="382" height="206" rx="28" fill="#183128"/>
+    <g transform="translate(1094 616)">
+      <rect width="36" height="100" rx="10" fill="#84cc16"/>
+      <rect x="58" y="32" width="36" height="68" rx="10" fill="#facc15"/>
+      <rect x="116" y="14" width="36" height="86" rx="10" fill="#22c55e"/>
+      <rect x="174" y="47" width="36" height="53" rx="10" fill="#fb923c"/>
+      <rect x="232" y="24" width="36" height="76" rx="10" fill="#38bdf8"/>
+    </g>
+    <text x="1090" y="720" fill="#e2fbd5" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Supply breakdown</text>
+  </g>
+</svg>

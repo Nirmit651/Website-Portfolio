@@ -19,24 +19,36 @@ const heading = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://nirmit.dev"),
-  title: "Nirmit Bhoyar — Portfolio",
+  title: "Nirmit Bhoyar | Software Engineering, AI & Data",
   description:
-    "Computer Science & Data Science @ Rutgers University. I build fast, thoughtful web experiences that bridge data, product, and people.",
+    "Portfolio of Nirmit Bhoyar, a Rutgers Computer Science and Data Science student building full-stack applications, AI/ML prototypes, geospatial analytics, and scientific-computing tools.",
+  alternates: {
+    canonical: "https://nirmit.dev",
+  },
   openGraph: {
-    title: "Nirmit Bhoyar — Portfolio",
+    title: "Nirmit Bhoyar | Software Engineering, AI & Data",
     description:
-      "Computer Science & Data Science @ Rutgers University. I build fast, thoughtful web experiences that bridge data, product, and people.",
+      "Portfolio of Nirmit Bhoyar, a Rutgers Computer Science and Data Science student building full-stack applications, AI/ML prototypes, geospatial analytics, and scientific-computing tools.",
     url: "https://nirmit.dev",
     siteName: "Nirmit Bhoyar",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Nirmit Bhoyar - Software Engineering, AI/ML, and Data Products",
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     creator: "@nirmitbhoyar",
-    title: "Nirmit Bhoyar — Portfolio",
+    title: "Nirmit Bhoyar | Software Engineering, AI & Data",
     description:
-      "Computer Science & Data Science @ Rutgers University. I build fast, thoughtful web experiences that bridge data, product, and people.",
+      "Portfolio of Nirmit Bhoyar, a Rutgers Computer Science and Data Science student building full-stack applications, AI/ML prototypes, geospatial analytics, and scientific-computing tools.",
+    images: ["/og-image.svg"],
   },
   authors: [{ name: "Nirmit Bhoyar" }],
   icons: {
