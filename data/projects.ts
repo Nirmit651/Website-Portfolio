@@ -32,7 +32,7 @@ export const FEATURED_PROJECTS: Project[] = [
     slug: "lemonlens",
     eyebrow: "Social Impact / Geospatial Analytics / Team Project",
     description:
-      "A Morgan Stanley Code to Give project for Lemontree that turns pantry feedback, supply signals, and demographic context into an interactive dashboard for identifying high-need food-access locations across New York City.",
+      "A geospatial analytics platform built during Morgan Stanley Code to Give for Lemontree that transforms pantry operations, food-supply signals, and demographic context into interactive insights for identifying high-need food-access locations across New York City.",
     contribution:
       "Team project. I contributed to the frontend geospatial experience, including borough filtering, map card UI, dashboard layout refinements, bookmark placement, and supply-tag detail views.",
     metrics: ["1,400+ food resources", "NYC food-access data", "Morgan Stanley Code to Give"],
@@ -55,11 +55,77 @@ export const FEATURED_PROJECTS: Project[] = [
     featuredOrder: 1,
   },
   {
+    title: "NYC Airbnb Price Classification",
+    slug: "nyc-airbnb-price-classification",
+    eyebrow: "Machine Learning / Classification / Data Science",
+    description:
+      "An end-to-end machine-learning pipeline that predicts whether NYC Airbnb listings fall into a high-price category, comparing logistic regression with a feedforward neural network on location, room, capacity, booking, and review features.",
+    metrics: ["28,022 listings", "81.8% test accuracy", "0.598 F1 score"],
+    image: "/projects/nyc-airbnb-price-classification/cover.svg",
+    imageAlt:
+      "Abstract NYC listing classification visualization with location markers, property signals, and model performance charts.",
+    tags: ["Machine Learning", "Classification", "Data Science"],
+    technologies: ["Python", "TensorFlow / Keras", "scikit-learn", "pandas", "NumPy", "Jupyter"],
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/Nirmit651/NYC-Airbnb-Price-Classification",
+        type: "repository",
+      },
+    ],
+    featuredOrder: 2,
+  },
+  {
+    title: "Blog Publishing Platform",
+    slug: "blog-publishing-platform",
+    eyebrow: "Full-Stack / REST API / Authentication",
+    description:
+      "A full-stack publishing platform organized as a monorepo with an Express REST API and separate React applications for public readers and authors, supporting authenticated publishing, comments, drafts, and moderation.",
+    metrics: ["3-application monorepo", "JWT authentication", "Role-based authorization"],
+    image: "/projects/blog-publishing-platform/cover.svg",
+    imageAlt:
+      "Original architecture illustration showing a REST API between reader and author clients with PostgreSQL storage below.",
+    tags: ["Full-Stack", "Backend", "Authentication"],
+    technologies: ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT", "bcryptjs"],
+    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/blog-api", type: "repository" }],
+    featuredOrder: 3,
+  },
+  {
+    title: "Finders Club",
+    slug: "finders-club",
+    eyebrow: "Full-Stack / Interactive Game / Backend Validation",
+    description:
+      "A full-stack photo-tagging game where players locate randomly selected targets in a crowded image while an Express backend validates normalized hitbox coordinates, tracks game sessions, and serves leaderboard results.",
+    metrics: ["8 seeded targets", "3 targets per round", "Responsive normalized hitboxes"],
+    image: "/projects/finders-club/cover.svg",
+    imageAlt:
+      "Original visual-search game illustration with a crowded scene, target markers, a game timer, and leaderboard results.",
+    tags: ["Full-Stack", "Game", "Backend"],
+    technologies: ["React", "Vite", "Node.js", "Express", "PostgreSQL", "Prisma", "Vitest"],
+    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/wheres-waldo", type: "repository" }],
+    featuredOrder: 4,
+  },
+  {
+    title: "Cloud File Manager",
+    slug: "cloud-file-manager",
+    eyebrow: "Backend / Cloud Storage / Authentication",
+    description:
+      "An authenticated cloud file-management application that supports uploads, downloads, folders, and per-user file ownership while separating PostgreSQL metadata from S3-compatible object storage.",
+    metrics: ["S3-compatible object storage", "Per-user file ownership", "PostgreSQL metadata"],
+    image: "/projects/cloud-file-manager/cover.svg",
+    imageAlt:
+      "Original cloud file manager illustration showing a folder hierarchy, PostgreSQL metadata, and an S3-compatible storage boundary.",
+    tags: ["Backend", "Cloud Storage", "Authentication"],
+    technologies: ["Node.js", "Express", "EJS", "PostgreSQL", "Prisma", "Passport.js", "Multer", "Supabase Storage"],
+    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/file-uploader", type: "repository" }],
+    featuredOrder: 5,
+  },
+  {
     title: "Solar Sight",
     slug: "solar-sight",
     eyebrow: "Full-Stack / Energy Analytics / Geospatial",
     description:
-      "A rooftop-solar analysis tool that converts an address into satellite context, monthly and annual production estimates, financial payback, 20-year savings, and environmental-impact projections.",
+      "An address-based rooftop solar analysis application using geocoding and PVWatts to estimate solar production, financial payback, long-term savings, and environmental impact.",
     metrics: ["20-year savings projection", "Monthly PV estimates", "Tested API parsing and calculations"],
     image: "/projects/solar-sight/cover.svg",
     imageAlt:
@@ -67,70 +133,21 @@ export const FEATURED_PROJECTS: Project[] = [
     tags: ["Full-Stack", "Energy", "Geospatial"],
     technologies: ["React", "Vite", "JavaScript", "Mapbox", "NREL PVWatts", "Serverless Functions", "REST APIs", "Automated Testing"],
     links: [{ label: "GitHub", href: "https://github.com/Nirmit651/solar-sight", type: "repository" }],
-    featuredOrder: 2,
+    featuredOrder: 6,
   },
-  {
-    title: "Relight Studio",
-    slug: "relight-studio",
-    eyebrow: "Creative Tools / WebGL / Full-Stack",
-    description:
-      "An interactive browser-based lighting editor with draggable pseudo-3D point lights, immediate WebGL previews, keyframe animation, playback and scrubbing, and a Python rendering/export backend.",
-    metrics: ["Real-time WebGL preview", "Keyframe timeline", "Python rendering backend"],
-    image: "/projects/relight-studio/cover.svg",
-    imageAlt:
-      "Illustration of the Relight Studio workspace with a canvas, draggable colored point lights, inspector controls, and a keyframe timeline.",
-    tags: ["Creative Tools", "Graphics", "Backend"],
-    technologies: ["React", "TypeScript", "Three.js", "WebGL", "Python", "FastAPI", "Pytest", "FFmpeg"],
-    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/relight", type: "repository" }],
-    context:
-      "Current renderer is a deterministic approximate light-field compositor with capability gates for optional research backends.",
-    status: "Prototype",
-    featuredOrder: 3,
-  },
-  {
-    title: "Members Only",
-    slug: "members-only",
-    eyebrow: "Backend / Authentication / Role-Based Access",
-    description:
-      "A private forum-style application with account creation, secure login, persistent sessions, post creation, membership access, and administrative moderation.",
-    metrics: ["Four access levels", "Secure password hashing", "PostgreSQL-backed sessions and content"],
-    image: "/projects/members-only/cover.svg",
-    imageAlt:
-      "Illustration of a private forum with login controls, protected messages, database records, and visitor, user, member, and admin roles.",
-    tags: ["Backend", "Auth", "Database"],
-    technologies: ["Node.js", "Express", "PostgreSQL", "Passport.js", "bcrypt", "EJS", "express-session", "express-validator"],
-    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/members-only", type: "repository" }],
-    context: "Built through The Odin Project to practice authentication, sessions, relational data, and authorization.",
-    featuredOrder: 4,
-  },
-  {
-    title: "STL Particle Preprocessor",
-    slug: "stl-particle-preprocessor",
-    eyebrow: "Scientific Computing / Geometry / Python",
-    description:
-      "A Python preprocessing pipeline that converts watertight STL geometry into volumetric particle clouds for meshfree simulation and computational-mechanics workflows.",
-    metrics: ["Three particle-label categories", "CSV and VTP export", "Interactive PyVista visualization"],
-    image: "/projects/stl-particle-preprocessor/cover.png",
-    imageAlt:
-      "PyVista visualization of a transparent beam geometry filled with a particle cloud and boundary-tagged regions.",
-    tags: ["Scientific Computing", "Geometry", "Simulation"],
-    technologies: ["Python", "NumPy", "Trimesh", "PyVista", "Computational Geometry", "VTK"],
-    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/stl-particle-preprocessor", type: "repository" }],
-    status: "Prototype",
-    featuredOrder: 5,
-  },
+];
+
+export const EARLIER_PROJECTS: Project[] = [
   {
     title: "TransitGuard",
     slug: "transitguard",
     eyebrow: "Computer Vision / Transportation / Prototype",
     description:
-      "A YOLOv8 and OpenCV prototype that detects vehicles in transportation footage and flags potentially risky proximity conditions by measuring distances between detections frame by frame.",
-    metrics: ["Four vehicle categories", "Frame-by-frame analysis", "Annotated video output"],
+      "A YOLOv8/OpenCV transportation computer-vision prototype that detects vehicles and flags potentially risky proximity conditions using frame-by-frame bounding-box distance analysis.",
     image: "/projects/transitguard/cover.png",
-    imageAlt:
-      "Annotated transportation video frame with vehicle detection boxes, center points, and proximity-risk markings.",
-    tags: ["Computer Vision", "Transportation", "Prototype"],
-    technologies: ["Python", "OpenCV", "YOLOv8", "Ultralytics", "Computer Vision"],
+    imageAlt: "Annotated transportation video frame with vehicle detection boxes and proximity-risk markings.",
+    tags: ["Computer Vision", "Transportation"],
+    technologies: ["Python", "OpenCV", "YOLOv8", "Ultralytics"],
     links: [
       {
         label: "GitHub",
@@ -138,12 +155,19 @@ export const FEATURED_PROJECTS: Project[] = [
         type: "repository",
       },
     ],
-    status: "Prototype",
-    featuredOrder: 6,
   },
-];
-
-export const EARLIER_PROJECTS: Project[] = [
+  {
+    title: "Members Only",
+    slug: "members-only",
+    eyebrow: "Backend / Authentication / Role-Based Access",
+    description:
+      "A private forum-style message board where visitors can browse public posts while signed-in users create messages, join the club, and unlock member or admin-only visibility.",
+    image: "/projects/members-only/cover.svg",
+    imageAlt: "Illustration of a private forum with login controls, protected messages, and role-based access.",
+    tags: ["Backend", "Authentication", "Database"],
+    technologies: ["Node.js", "Express", "PostgreSQL", "Passport.js", "bcrypt", "EJS"],
+    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/members-only", type: "repository" }],
+  },
   {
     title: "Pokémon Memory Game",
     slug: "memory-game",

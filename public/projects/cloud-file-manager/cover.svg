@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud file manager cover</title>
+  <desc id="desc">Original cloud file manager illustration showing folder hierarchy, PostgreSQL metadata, and S3-compatible object storage.</desc>
+  <defs>
+    <linearGradient id="cloudBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111b38"/>
+      <stop offset=".52" stop-color="#143e59"/>
+      <stop offset="1" stop-color="#07121f"/>
+    </linearGradient>
+    <linearGradient id="cloudPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#e1edf5"/>
+    </linearGradient>
+    <filter id="cloudShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#020617" flood-opacity=".4"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#cloudBg)"/>
+  <path d="M0 700c254-93 452-78 641-7 233 87 478 41 959-111v318H0Z" fill="#38bdf8" opacity=".1"/>
+  <g filter="url(#cloudShadow)">
+    <rect x="120" y="108" width="1360" height="684" rx="40" fill="url(#cloudPanel)"/>
+    <rect x="162" y="150" width="356" height="600" rx="30" fill="#10213b"/>
+    <text x="210" y="214" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="850">My files</text>
+    <rect x="210" y="254" width="206" height="46" rx="23" fill="#1e4f6b"/>
+    <path d="M235 276h22l10 12h40" fill="none" stroke="#7dd3fc" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="325" y="285" fill="#e0f2fe" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">PROJECTS</text>
+    <g stroke="#5e8094" stroke-width="5" stroke-linecap="round" fill="none">
+      <path d="M246 366v245M246 410h52M246 490h52M246 570h52"/>
+    </g>
+    <g fill="#38bdf8">
+      <path d="M302 380h92l20 22v48H302Z"/><path d="M302 460h92l20 22v48H302Z"/><path d="M302 540h92l20 22v48H302Z"/>
+    </g>
+    <g fill="#e0f2fe" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="750">
+      <text x="430" y="422">designs</text><text x="430" y="502">reports</text><text x="430" y="582">uploads</text>
+    </g>
+    <rect x="568" y="150" width="480" height="266" rx="30" fill="#ffffff"/>
+    <text x="616" y="214" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="850">Application layer</text>
+    <g transform="translate(616 254)">
+      <rect width="176" height="82" rx="20" fill="#dbeafe"/><path d="M42 48h90" stroke="#2563eb" stroke-width="9" stroke-linecap="round"/><circle cx="42" cy="48" r="13" fill="#60a5fa"/>
+      <rect x="208" width="176" height="82" rx="20" fill="#ccfbf1"/><path d="M250 48h90" stroke="#0f766e" stroke-width="9" stroke-linecap="round"/><circle cx="250" cy="48" r="13" fill="#2dd4bf"/>
+      <text x="30" y="108" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Express</text>
+      <text x="226" y="108" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Passport</text>
+    </g>
+    <path d="M808 416v66" stroke="#0f766e" stroke-width="8" stroke-linecap="round" stroke-dasharray="12 16"/>
+    <rect x="568" y="518" width="480" height="232" rx="30" fill="#0f766e"/>
+    <text x="616" y="584" fill="#ccfbf1" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="850">PostgreSQL metadata</text>
+    <g transform="translate(616 620)">
+      <ellipse cx="190" cy="22" rx="160" ry="30" fill="#0b5d5e"/>
+      <path d="M30 22v66c0 17 72 30 160 30s160-13 160-30V22" fill="#0b5d5e"/>
+      <ellipse cx="190" cy="88" rx="160" ry="30" fill="#0a5152"/>
+      <path d="M30 54c0 17 72 30 160 30s160-13 160-30" fill="none" stroke="#54b9ae" stroke-width="5"/>
+      <text x="116" y="73" fill="#ecfeff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">owner · file · folder</text>
+    </g>
+    <rect x="1090" y="150" width="346" height="600" rx="30" fill="#162d48"/>
+    <circle cx="1264" cy="310" r="96" fill="#1d5d81"/>
+    <path d="M1190 336c0-43 31-77 70-77 29 0 54 19 65 45 33 0 59 26 59 58s-26 58-59 58h-135c-35 0-63-28-63-63 0-28 20-52 48-58 3-31 29-55 60-55" fill="#38bdf8"/>
+    <path d="M1264 292v104M1227 357l37 39 37-39" fill="none" stroke="#eff6ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1160" y="494" fill="#f0f9ff" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="850">Object storage</text>
+    <text x="1160" y="536" fill="#9cc4d7" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">S3-compatible</text>
+    <rect x="1160" y="594" width="206" height="48" rx="24" fill="#0f766e"/>
+    <text x="1211" y="625" fill="#ecfeff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="850">SUPABASE</text>
+  </g>
+</svg>

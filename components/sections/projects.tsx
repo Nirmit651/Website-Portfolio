@@ -11,13 +11,20 @@ import {
   SiHtml5,
   SiJavascript,
   SiJest,
+  SiJsonwebtokens,
+  SiKeras,
   SiMapbox,
   SiNextdotjs,
   SiNodedotjs,
   SiOpencv,
+  SiPandas,
   SiPostgresql,
+  SiPrisma,
   SiPython,
   SiReact,
+  SiScikitlearn,
+  SiSupabase,
+  SiTensorflow,
   SiThreedotjs,
   SiTypescript,
   SiVercel,
@@ -40,6 +47,15 @@ const technologyIcons: Record<string, React.ReactNode> = {
   "Node.js": <SiNodedotjs className="h-3.5 w-3.5" />,
   Express: <SiExpress className="h-3.5 w-3.5" />,
   PostgreSQL: <SiPostgresql className="h-3.5 w-3.5" />,
+  Prisma: <SiPrisma className="h-3.5 w-3.5" />,
+  "TensorFlow / Keras": <SiTensorflow className="h-3.5 w-3.5" />,
+  TensorFlow: <SiTensorflow className="h-3.5 w-3.5" />,
+  Keras: <SiKeras className="h-3.5 w-3.5" />,
+  "scikit-learn": <SiScikitlearn className="h-3.5 w-3.5" />,
+  pandas: <SiPandas className="h-3.5 w-3.5" />,
+  JWT: <SiJsonwebtokens className="h-3.5 w-3.5" />,
+  "Supabase Storage": <SiSupabase className="h-3.5 w-3.5" />,
+  Supabase: <SiSupabase className="h-3.5 w-3.5" />,
   OpenCV: <SiOpencv className="h-3.5 w-3.5" />,
   Vercel: <SiVercel className="h-3.5 w-3.5" />,
   Vite: <SiVite className="h-3.5 w-3.5" />,
@@ -87,7 +103,7 @@ export default function ProjectsSection() {
         <div className="max-w-3xl">
           <h2 className="font-display text-3xl text-slate-900 sm:text-4xl dark:text-white">Featured Work</h2>
           <p className="mt-4 text-lg text-slate-600 dark:text-slate-300">
-            Projects spanning full-stack engineering, AI and computer vision, geospatial analytics, and scientific computing, built to turn complex systems into useful products.
+            Projects spanning full-stack engineering, machine learning, geospatial analytics, and backend systems, built to turn data and technical ideas into useful products.
           </p>
         </div>
 

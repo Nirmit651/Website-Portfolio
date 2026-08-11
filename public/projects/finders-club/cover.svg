@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Finders Club cover</title>
+  <desc id="desc">Original visual-search game illustration with a crowded scene, target markers, timer, and leaderboard.</desc>
+  <defs>
+    <linearGradient id="findersBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#261a3b"/>
+      <stop offset=".54" stop-color="#153e52"/>
+      <stop offset="1" stop-color="#07131f"/>
+    </linearGradient>
+    <filter id="findersShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#020617" flood-opacity=".42"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#findersBg)"/>
+  <circle cx="250" cy="140" r="210" fill="#f472b6" opacity=".12"/>
+  <g filter="url(#findersShadow)">
+    <rect x="116" y="106" width="1368" height="688" rx="40" fill="#f4f7f9"/>
+    <rect x="156" y="146" width="900" height="608" rx="30" fill="#d8edf0"/>
+    <path d="M156 604c109-72 193-82 313-44 125 40 219 24 324-75 108-102 175-112 263-73v342H156Z" fill="#a8d2d4"/>
+    <path d="M156 306c135-67 228-45 344 35 108 74 206 65 300-24 112-106 177-106 256-68v192c-133-45-210 26-327 103-133 87-246 5-341-32-94-36-147-24-232 17Z" fill="#bfe2dc"/>
+    <g fill="#f8fafc" opacity=".7">
+      <circle cx="280" cy="230" r="42"/><circle cx="414" cy="244" r="31"/><circle cx="558" cy="198" r="50"/><circle cx="720" cy="250" r="36"/><circle cx="892" cy="204" r="48"/>
+      <circle cx="244" cy="480" r="50"/><circle cx="390" cy="440" r="37"/><circle cx="548" cy="514" r="52"/><circle cx="736" cy="430" r="44"/><circle cx="910" cy="510" r="55"/>
+      <circle cx="320" cy="658" r="40"/><circle cx="500" cy="654" r="48"/><circle cx="690" cy="632" r="34"/><circle cx="856" cy="676" r="48"/>
+    </g>
+    <g fill="none" stroke="#0f766e" stroke-width="6" opacity=".55">
+      <path d="M186 360h875M186 574h875M330 148v606M622 148v606M844 148v606"/>
+    </g>
+    <g fill="none" stroke-width="8">
+      <circle cx="294" cy="238" r="44" stroke="#f97316"/><path d="M294 178v-22M294 298v22M234 238h-22M354 238h22" stroke="#f97316" stroke-linecap="round"/>
+      <circle cx="740" cy="438" r="48" stroke="#7c3aed"/><path d="M740 374v-22M740 502v22M676 438h-22M804 438h22" stroke="#7c3aed" stroke-linecap="round"/>
+      <circle cx="910" cy="656" r="40" stroke="#0f766e"/><path d="M910 600v-18M910 730v-18M854 656h-18M984 656h-18" stroke="#0f766e" stroke-linecap="round"/>
+    </g>
+    <rect x="1090" y="146" width="354" height="200" rx="28" fill="#18263e"/>
+    <text x="1130" y="202" fill="#a5f3fc" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800">Find the targets</text>
+    <text x="1130" y="282" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="850">01:28</text>
+    <circle cx="1378" cy="250" r="28" fill="#f97316"/><path d="M1378 234v18l12 9" fill="none" stroke="#fff7ed" stroke-width="6" stroke-linecap="round"/>
+    <rect x="1090" y="378" width="354" height="376" rx="28" fill="#ffffff"/>
+    <text x="1130" y="430" fill="#172033" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="850">Leaderboard</text>
+    <g font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">
+      <circle cx="1148" cy="486" r="17" fill="#fbbf24"/><text x="1180" y="493" fill="#334155">Maya</text><text x="1370" y="493" fill="#0f766e">00:54</text>
+      <circle cx="1148" cy="552" r="17" fill="#cbd5e1"/><text x="1180" y="559" fill="#334155">Alex</text><text x="1370" y="559" fill="#0f766e">01:02</text>
+      <circle cx="1148" cy="618" r="17" fill="#f59e0b"/><text x="1180" y="625" fill="#334155">Sam</text><text x="1370" y="625" fill="#0f766e">01:18</text>
+    </g>
+    <rect x="1130" y="674" width="274" height="44" rx="22" fill="#0f766e"/>
+    <text x="1220" y="702" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="850">PLAY AGAIN</text>
+  </g>
+</svg>
