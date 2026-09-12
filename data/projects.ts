@@ -91,18 +91,18 @@ export const FEATURED_PROJECTS: Project[] = [
     featuredOrder: 3,
   },
   {
-    title: "Finders Club",
-    slug: "finders-club",
-    eyebrow: "Full-Stack / Interactive Game / Backend Validation",
+    title: "Relay",
+    slug: "relay",
+    eyebrow: "Full-Stack / Real-Time Messaging / Authentication",
     description:
-      "A full-stack photo-tagging game where players locate randomly selected targets in a crowded image while an Express backend validates normalized hitbox coordinates, tracks game sessions, and serves leaderboard results.",
-    metrics: ["8 seeded targets", "3 targets per round", "Responsive normalized hitboxes"],
-    image: "/projects/finders-club/cover.svg",
+      "A full-stack messaging app that combines Next.js Server Components for initial data loading with a standalone Socket.IO server for live delivery, while PostgreSQL remains the source of truth for conversations and message history.",
+    metrics: ["Real-time Socket.IO messaging", "JWT + HttpOnly authentication", "Persistent conversation history"],
+    image: "/projects/relay/cover.svg",
     imageAlt:
-      "Original visual-search game illustration with a crowded scene, target markers, a game timer, and leaderboard results.",
-    tags: ["Full-Stack", "Game", "Backend"],
-    technologies: ["React", "Vite", "Node.js", "Express", "PostgreSQL", "Prisma", "Vitest"],
-    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/wheres-waldo", type: "repository" }],
+      "Relay messaging interface showing a conversation list, an active direct conversation, real-time message bubbles, and the message composer.",
+    tags: ["Full-Stack", "Real-Time", "Authentication"],
+    technologies: ["Next.js", "React", "TypeScript", "Socket.IO", "PostgreSQL", "Prisma", "Tailwind CSS"],
+    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/messaging-app", type: "repository" }],
     featuredOrder: 4,
   },
   {

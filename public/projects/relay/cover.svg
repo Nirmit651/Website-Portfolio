@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Relay messaging app interface</title>
+  <desc id="desc">A faithful illustration of the Relay interface with a conversation sidebar, active direct messages, and a message composer.</desc>
+  <defs>
+    <filter id="shadow" x="-12%" y="-18%" width="124%" height="145%">
+      <feDropShadow dx="0" dy="30" stdDeviation="35" flood-color="#020617" flood-opacity=".48"/>
+    </filter>
+    <clipPath id="appClip">
+      <rect x="104" y="92" width="1392" height="716" rx="38"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="900" fill="#111827"/>
+  <circle cx="178" cy="110" r="245" fill="#4f46e5" opacity=".17"/>
+  <circle cx="1470" cy="820" r="310" fill="#818cf8" opacity=".1"/>
+
+  <g filter="url(#shadow)">
+    <rect x="104" y="92" width="1392" height="716" rx="38" fill="#ffffff"/>
+    <g clip-path="url(#appClip)" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+      <!-- Sidebar -->
+      <rect x="104" y="92" width="390" height="716" fill="#f8fafc"/>
+      <path d="M494 92v716" stroke="#e2e8f0" stroke-width="2"/>
+
+      <rect x="136" y="124" width="54" height="54" rx="19" fill="#0f172a"/>
+      <path d="M149 143c0-5 4-9 9-9h12c5 0 9 4 9 9v7c0 5-4 9-9 9h-6l-7 6v-6c-5 0-8-4-8-9Z" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+      <text x="206" y="146" fill="#0f172a" font-size="22" font-weight="750">Relay</text>
+      <text x="206" y="166" fill="#94a3b8" font-size="13" font-weight="550">Your conversations</text>
+
+      <rect x="136" y="202" width="326" height="48" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+      <circle cx="159" cy="225" r="7" fill="none" stroke="#94a3b8" stroke-width="2"/>
+      <path d="m164 230 6 6" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+      <text x="182" y="231" fill="#94a3b8" font-size="14">Search conversations</text>
+
+      <text x="140" y="286" fill="#94a3b8" font-size="12" font-weight="750" letter-spacing="2">MESSAGES</text>
+      <circle cx="442" cy="281" r="15" fill="#eef2ff"/>
+      <path d="M436 281h12M442 275v12" stroke="#4f46e5" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- Active conversation -->
+      <rect x="124" y="305" width="350" height="89" rx="20" fill="#fff"/>
+      <rect x="140" y="321" width="54" height="54" rx="19" fill="#ddd6fe"/>
+      <text x="167" y="355" text-anchor="middle" fill="#4c1d95" font-size="16" font-weight="700">AK</text>
+      <circle cx="190" cy="371" r="7" fill="#10b981" stroke="#fff" stroke-width="4"/>
+      <text x="210" y="343" fill="#0f172a" font-size="16" font-weight="700">Avery Kim</text>
+      <text x="440" y="343" text-anchor="end" fill="#94a3b8" font-size="11">10:42 AM</text>
+      <text x="210" y="368" fill="#64748b" font-size="13">Sounds good — see you then.</text>
+
+      <rect x="140" y="419" width="54" height="54" rx="19" fill="#fecdd3"/>
+      <text x="167" y="453" text-anchor="middle" fill="#881337" font-size="16" font-weight="700">JM</text>
+      <circle cx="190" cy="469" r="7" fill="#10b981" stroke="#f8fafc" stroke-width="4"/>
+      <text x="210" y="441" fill="#334155" font-size="16" font-weight="650">Jordan Miles</text>
+      <text x="440" y="441" text-anchor="end" fill="#94a3b8" font-size="11">9:18 AM</text>
+      <text x="210" y="466" fill="#64748b" font-size="13">Can you send the latest notes?</text>
+      <circle cx="449" cy="463" r="12" fill="#4f46e5"/>
+      <text x="449" y="468" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">2</text>
+
+      <rect x="140" y="503" width="54" height="54" rx="19" fill="#a5f3fc"/>
+      <text x="167" y="537" text-anchor="middle" fill="#164e63" font-size="16" font-weight="700">SP</text>
+      <circle cx="190" cy="553" r="7" fill="#94a3b8" stroke="#f8fafc" stroke-width="4"/>
+      <text x="210" y="525" fill="#334155" font-size="16" font-weight="650">Sam Patel</text>
+      <text x="440" y="525" text-anchor="end" fill="#94a3b8" font-size="11">Yesterday</text>
+      <text x="210" y="550" fill="#64748b" font-size="13">Thanks for the update!</text>
+
+      <!-- Current user -->
+      <rect x="124" y="716" width="350" height="72" rx="20" fill="#fff" stroke="#e2e8f0"/>
+      <rect x="140" y="729" width="46" height="46" rx="16" fill="#bbf7d0"/>
+      <text x="163" y="758" text-anchor="middle" fill="#14532d" font-size="14" font-weight="700">NB</text>
+      <circle cx="182" cy="772" r="6" fill="#10b981" stroke="#fff" stroke-width="3"/>
+      <text x="202" y="748" fill="#0f172a" font-size="14" font-weight="700">Nirmit Bhavsar</text>
+      <text x="202" y="768" fill="#059669" font-size="11" font-weight="600">Online</text>
+      <text x="445" y="758" text-anchor="middle" fill="#94a3b8" font-size="22">···</text>
+
+      <!-- Chat header -->
+      <rect x="496" y="92" width="1000" height="92" fill="#fff"/>
+      <path d="M496 184h1000" stroke="#e2e8f0" stroke-width="2"/>
+      <rect x="534" y="111" width="54" height="54" rx="19" fill="#ddd6fe"/>
+      <text x="561" y="145" text-anchor="middle" fill="#4c1d95" font-size="16" font-weight="700">AK</text>
+      <circle cx="584" cy="162" r="7" fill="#10b981" stroke="#fff" stroke-width="4"/>
+      <text x="606" y="136" fill="#0f172a" font-size="17" font-weight="750">Avery Kim</text>
+      <circle cx="611" cy="154" r="4" fill="#10b981"/>
+      <text x="622" y="158" fill="#94a3b8" font-size="12" font-weight="550">Online</text>
+      <!-- Header actions -->
+      <g fill="none" stroke="#94a3b8" stroke-width="2.3" stroke-linecap="round">
+        <circle cx="1348" cy="138" r="8"/><path d="m1354 144 7 7"/>
+        <path d="M1403 129c-3 2-5 5-5 9 0 8 7 15 15 15 4 0 7-2 9-5l-8-6-4 3c-3-2-5-4-6-7l3-3Z"/>
+        <path d="M1462 138h1M1470 138h1M1478 138h1" stroke-width="4"/>
+      </g>
+
+      <!-- Message history -->
+      <rect x="496" y="186" width="1000" height="526" fill="#f7f8fb"/>
+      <path d="M560 256h286M1146 256h286" stroke="#e2e8f0" stroke-width="2"/>
+      <text x="996" y="261" text-anchor="middle" fill="#94a3b8" font-size="12" font-weight="750" letter-spacing="1.6">SEP 12, 2026</text>
+
+      <rect x="550" y="301" width="42" height="42" rx="15" fill="#ddd6fe"/>
+      <text x="571" y="328" text-anchor="middle" fill="#4c1d95" font-size="12" font-weight="700">AK</text>
+      <rect x="608" y="288" width="344" height="65" rx="24" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+      <text x="630" y="316" fill="#334155" font-size="15">Hey! Did the realtime server changes</text>
+      <text x="630" y="338" fill="#334155" font-size="15">make it into the latest build?</text>
+      <text x="618" y="372" fill="#94a3b8" font-size="11" font-weight="550">10:39 AM</text>
+
+      <rect x="1040" y="394" width="392" height="65" rx="24" fill="#4f46e5"/>
+      <path d="M1432 435v24h-24" fill="#4f46e5"/>
+      <text x="1064" y="422" fill="#fff" font-size="15">Yes — messages are saved before the</text>
+      <text x="1064" y="444" fill="#fff" font-size="15">room broadcast now.</text>
+      <text x="1420" y="478" text-anchor="end" fill="#94a3b8" font-size="11" font-weight="550">10:41 AM</text>
+
+      <rect x="550" y="512" width="42" height="42" rx="15" fill="#ddd6fe"/>
+      <text x="571" y="539" text-anchor="middle" fill="#4c1d95" font-size="12" font-weight="700">AK</text>
+      <rect x="608" y="500" width="288" height="53" rx="24" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+      <text x="630" y="533" fill="#334155" font-size="15">Perfect. I’ll test it now.</text>
+      <text x="618" y="573" fill="#94a3b8" font-size="11" font-weight="550">10:42 AM</text>
+
+      <rect x="1104" y="594" width="328" height="53" rx="24" fill="#4f46e5"/>
+      <text x="1128" y="627" fill="#fff" font-size="15">Sounds good — see you then.</text>
+      <text x="1420" y="666" text-anchor="end" fill="#94a3b8" font-size="11" font-weight="550">10:42 AM</text>
+
+      <!-- Composer -->
+      <rect x="496" y="712" width="1000" height="96" fill="#fff"/>
+      <path d="M496 712h1000" stroke="#e2e8f0" stroke-width="2"/>
+      <path d="M557 752c4-6 10-5 13-2 4 4 2 10-2 14l-10 10c-5 5-13 4-17-1-4-5-3-12 2-17l12-12" fill="none" stroke="#94a3b8" stroke-width="2.4" stroke-linecap="round"/>
+      <rect x="590" y="735" width="750" height="54" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+      <text x="616" y="768" fill="#94a3b8" font-size="15">Write a message...</text>
+      <circle cx="1306" cy="762" r="9" fill="none" stroke="#94a3b8" stroke-width="2"/>
+      <circle cx="1303" cy="759" r="1.5" fill="#94a3b8"/><circle cx="1309" cy="759" r="1.5" fill="#94a3b8"/>
+      <path d="M1302 765c3 3 6 3 9 0" fill="none" stroke="#94a3b8" stroke-width="1.8" stroke-linecap="round"/>
+      <rect x="1354" y="735" width="58" height="54" rx="20" fill="#4f46e5"/>
+      <path d="m1373 753 23 9-23 9 4-9Z" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round"/>
+    </g>
+    <rect x="104" y="92" width="1392" height="716" rx="38" fill="none" stroke="#ffffff" stroke-opacity=".75" stroke-width="2"/>
+  </g>
+</svg>
