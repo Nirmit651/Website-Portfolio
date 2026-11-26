@@ -28,21 +28,6 @@ export type Project = {
 
 export const FEATURED_PROJECTS: Project[] = [
   {
-    title: "Relay",
-    slug: "relay",
-    eyebrow: "Full-Stack / Real-Time Messaging / Authentication",
-    description:
-      "A full-stack messaging app that combines Next.js Server Components for initial data loading with a standalone Socket.IO server for live delivery, while PostgreSQL remains the source of truth for conversations and message history.",
-    metrics: ["Real-time Socket.IO messaging", "JWT + HttpOnly authentication", "Persistent conversation history"],
-    image: "/projects/relay/cover.svg",
-    imageAlt:
-      "Relay messaging interface showing a conversation list, an active direct conversation, real-time message bubbles, and the message composer.",
-    tags: ["Full-Stack", "Real-Time", "Authentication"],
-    technologies: ["Next.js", "React", "TypeScript", "Socket.IO", "PostgreSQL", "Prisma", "Tailwind CSS"],
-    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/messaging-app", type: "repository" }],
-    featuredOrder: 1,
-  },
-  {
     title: "FaithfulMed",
     slug: "faithfulmed",
     eyebrow: "AI / Healthcare / Multi-Agent System",
@@ -70,22 +55,7 @@ export const FEATURED_PROJECTS: Project[] = [
         type: "repository",
       },
     ],
-    featuredOrder: 2,
-  },
-  {
-    title: "Cloud File Manager",
-    slug: "cloud-file-manager",
-    eyebrow: "Backend / Cloud Storage / Authentication",
-    description:
-      "An authenticated cloud file-management application that supports uploads, downloads, folders, and per-user file ownership while separating PostgreSQL metadata from S3-compatible object storage.",
-    metrics: ["S3-compatible object storage", "Per-user file ownership", "PostgreSQL metadata"],
-    image: "/projects/cloud-file-manager/cover.svg",
-    imageAlt:
-      "Original cloud file manager illustration showing a folder hierarchy, PostgreSQL metadata, and an S3-compatible storage boundary.",
-    tags: ["Backend", "Cloud Storage", "Authentication"],
-    technologies: ["Node.js", "Express", "EJS", "PostgreSQL", "Prisma", "Passport.js", "Multer", "Supabase Storage"],
-    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/file-uploader", type: "repository" }],
-    featuredOrder: 3,
+    featuredOrder: 1,
   },
   {
     title: "Blog Publishing Platform",
@@ -100,34 +70,7 @@ export const FEATURED_PROJECTS: Project[] = [
     tags: ["Full-Stack", "Backend", "Authentication"],
     technologies: ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT", "bcryptjs"],
     links: [{ label: "GitHub", href: "https://github.com/Nirmit651/blog-api", type: "repository" }],
-    featuredOrder: 4,
-  },
-  {
-    title: "LemonLens",
-    slug: "lemonlens",
-    eyebrow: "Social Impact / Geospatial Analytics / Team Project",
-    description:
-      "A geospatial analytics platform built during Morgan Stanley Code to Give for Lemontree that transforms pantry operations, food-supply signals, and demographic context into interactive insights for identifying high-need food-access locations across New York City.",
-    contribution:
-      "Team project. I contributed to the frontend geospatial experience, including borough filtering, map card UI, dashboard layout refinements, bookmark placement, and supply-tag detail views.",
-    metrics: ["1,400+ food resources", "NYC food-access data", "Morgan Stanley Code to Give"],
-    image: "/projects/lemonlens/cover.svg",
-    imageAlt:
-      "Illustration of the LemonLens dashboard with a New York City map, resource clusters, pantry insights, and ranked food-access needs.",
-    tags: ["Geospatial", "Analytics", "Social Impact"],
-    technologies: ["TypeScript", "Next.js", "React", "Mapbox", "Vercel", "REST APIs", "Data Visualization"],
-    links: [
-      {
-        label: "GitHub",
-        href: "https://github.com/ishratarshad/trackb_team7_code_to_give",
-        type: "repository",
-      },
-      { label: "Project Video", href: "https://youtu.be/4kvC4jmpLTg", type: "video" },
-    ],
-    teamProject: true,
-    context: "Built during Morgan Stanley Code to Give for Lemontree NYC.",
-    status: "Team Project",
-    featuredOrder: 5,
+    featuredOrder: 2,
   },
   {
     title: "NYC Airbnb Price Classification",
@@ -158,6 +101,63 @@ export const FEATURED_PROJECTS: Project[] = [
         type: "repository",
       },
     ],
+    featuredOrder: 3,
+  },
+  {
+    title: "LemonLens",
+    slug: "lemonlens",
+    eyebrow: "Social Impact / Geospatial Analytics / Team Project",
+    description:
+      "A geospatial analytics platform built during Morgan Stanley Code to Give for Lemontree that transforms pantry operations, food-supply signals, and demographic context into interactive insights for identifying high-need food-access locations across New York City.",
+    contribution:
+      "Team project. I contributed to the frontend geospatial experience, including borough filtering, map card UI, dashboard layout refinements, bookmark placement, and supply-tag detail views.",
+    metrics: ["1,400+ food resources", "NYC food-access data", "Morgan Stanley Code to Give"],
+    image: "/projects/lemonlens/cover.svg",
+    imageAlt:
+      "Illustration of the LemonLens dashboard with a New York City map, resource clusters, pantry insights, and ranked food-access needs.",
+    tags: ["Geospatial", "Analytics", "Social Impact"],
+    technologies: ["TypeScript", "Next.js", "React", "Mapbox", "Vercel", "REST APIs", "Data Visualization"],
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/ishratarshad/trackb_team7_code_to_give",
+        type: "repository",
+      },
+      { label: "Project Video", href: "https://youtu.be/4kvC4jmpLTg", type: "video" },
+    ],
+    teamProject: true,
+    context: "Built during Morgan Stanley Code to Give for Lemontree NYC.",
+    status: "Team Project",
+    featuredOrder: 4,
+  },
+  {
+    title: "Relay",
+    slug: "relay",
+    eyebrow: "Full-Stack / Real-Time Messaging / Authentication",
+    description:
+      "A full-stack messaging app that combines Next.js Server Components for initial data loading with a standalone Socket.IO server for live delivery, while PostgreSQL remains the source of truth for conversations and message history.",
+    metrics: ["Real-time Socket.IO messaging", "JWT + HttpOnly authentication", "Persistent conversation history"],
+    image: "/projects/relay/cover.svg",
+    imageAlt:
+      "Relay messaging interface showing a conversation list, an active direct conversation, real-time message bubbles, and the message composer.",
+    tags: ["Full-Stack", "Real-Time", "Authentication"],
+    technologies: ["Next.js", "React", "TypeScript", "Socket.IO", "PostgreSQL", "Prisma", "Tailwind CSS"],
+    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/messaging-app", type: "repository" }],
+    featuredOrder: 5,
+  },
+  {
+    title: "Cloud File Manager",
+    slug: "cloud-file-manager",
+    eyebrow: "Backend / Cloud Storage / Authentication",
+    description:
+      "An authenticated cloud file-management application that supports uploads, downloads, folders, and per-user file ownership while separating PostgreSQL metadata from S3-compatible object storage.",
+    metrics: ["S3-compatible object storage", "Per-user file ownership", "PostgreSQL metadata"],
+    image: "/projects/cloud-file-manager/cover.svg",
+    imageAlt:
+      "Original cloud file manager illustration showing a folder hierarchy, PostgreSQL metadata, and an S3-compatible storage boundary.",
+    tags: ["Backend", "Cloud Storage", "Authentication"],
+    technologies: ["Node.js", "Express", "EJS", "PostgreSQL", "Prisma", "Passport.js", "Multer", "Supabase Storage"],
+    links: [{ label: "GitHub", href: "https://github.com/Nirmit651/file-uploader", type: "repository" }],
     featuredOrder: 6,
   },
 ];
